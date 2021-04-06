@@ -710,6 +710,10 @@ h4 {
     padding-left: 0;
     padding-right: 0;
   }
+  .title2 {
+    width: 80%;
+
+  }
 }
 @media (max-width: 992px) and (min-width: 768px) {
   .navbar .nav {
@@ -718,18 +722,34 @@ h4 {
   .nav-center.navbar .nav {
     max-width: 100%;
   }
+  .title2 {
+    width: 80%;
+
+  }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
+  }
+  .title2 {
+    width: 80%;
+
   }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }
+  .title2 {
+    width: 80%;
+
+  }
 }
 @media (max-width: 991px) {
+  .title2 {
+    width: 80%;
+
+  }
   .container {
     width: 100%;
   }
@@ -758,6 +778,10 @@ h4 {
   }
 }
 @media (max-width: 767px) {
+  .title2 {
+    width: 80%;
+
+  }
   .page-container {
     overflow-x: hidden;
     position: relative;
@@ -900,9 +924,16 @@ h4 {
     padding-left: 0;
     padding-right: 0;
   }
+  .title2 {
+    width: 100%;
+
+  }
 }
 @media (max-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
+  }
+  .title2 {
+    width: 100%;
   }
 }
