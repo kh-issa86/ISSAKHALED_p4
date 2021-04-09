@@ -712,7 +712,6 @@ h4 {
   }
   .title2 {
     width: 80%;
-
   }
 }
 @media (max-width: 992px) and (min-width: 768px) {
@@ -724,7 +723,6 @@ h4 {
   }
   .title2 {
     width: 80%;
-
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -733,7 +731,6 @@ h4 {
   }
   .title2 {
     width: 80%;
-
   }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -742,13 +739,11 @@ h4 {
   }
   .title2 {
     width: 80%;
-
   }
 }
 @media (max-width: 991px) {
   .title2 {
     width: 80%;
-
   }
   .container {
     width: 100%;
@@ -780,7 +775,6 @@ h4 {
 @media (max-width: 767px) {
   .title2 {
     width: 80%;
-
   }
   .page-container {
     overflow-x: hidden;
@@ -926,7 +920,6 @@ h4 {
   }
   .title2 {
     width: 100%;
-
   }
 }
 @media (max-width: 767px) {
