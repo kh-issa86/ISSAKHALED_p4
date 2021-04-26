@@ -104,7 +104,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-lg,
-.d-bloc a .icon-md,
+.d-bloc a ,
 .d-bloc a .icon-sm,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -625,9 +625,7 @@ h4 {
   margin-bottom: 14px;
   margin-top: 24px;
 }
-.white {
-  color: #000 !important;
-}
+
 .portfolio-thumb {
   margin-bottom: 24px;
   width: 100%;
@@ -640,7 +638,7 @@ h4 {
   box-shadow: 0 4px 9px rgba(0, 0, 0, 0.3);
 }
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgba(81, 60, 4, 0.7);
   padding: 40px 40px 40px 40px;
 }
 .bold-link {
@@ -698,6 +696,47 @@ h4 {
 .bg-presentation {
   background-image: url(img/image-de-presentation.jpg);
 }
+.dark {
+  color: rgb(247, 247, 247) !important;
+  font-size: 19px;
+
+}
+.dark-h2 {
+  font-size: 21px;
+  font-weight: 700;
+}
+.dark-p {
+  color: rgb(255, 255, 255) !important;
+  font-size: 19px;
+}
+.copyrights {
+  color: #000 !important;
+  margin: 0 auto;
+  margin-bottom: 1em;
+
+
+}
+.realisations {
+font-size: 33px;
+width: 63%;
+margin: 0 auto;
+text-align: center;
+
+}
+.citaion {
+font-size: 23px;
+width: 50%;
+margin: 0 auto;
+text-align: center;
+}
+
+.citaion-p {
+  margin-bottom: 4em;
+}
+.icon-md {
+  color: #000;
+}
+
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
@@ -911,6 +950,32 @@ h4 {
   .blocsapp-device-iphone5 img {
     width: 180px;
     height: 320px;
+  }
+  .dark {
+    color: #000 !important;
+    font-size: 16px;
+  
+  }
+  .dark-h2 {
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .dark-p {
+    color: rgb(55, 29, 29) !important;
+    }
+  
+  .realisations {
+  font-size: 18px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  
+  }
+  .citaion {
+  font-size: 18px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
   }
 }
 @media (max-width: 400px) {
