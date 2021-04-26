@@ -951,17 +951,21 @@ text-align: center;
     width: 180px;
     height: 320px;
   }
+  .black-background {
+    background-color: rgba(81, 60, 4, 0.7);
+    padding: 40px 10px 40px 10px;
+  }
   .dark {
-    color: #000 !important;
-    font-size: 16px;
+    color: rgb(255, 255, 255) !important;
   
   }
   .dark-h2 {
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 700;
   }
   .dark-p {
-    color: rgb(55, 29, 29) !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 19px;
     }
   
   .realisations {
