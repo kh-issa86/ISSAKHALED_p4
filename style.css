@@ -561,6 +561,8 @@ p {
 }
 .container {
   max-width: 1000px;
+  padding: 3em;
+
 }
 .hero-bloc-text {
   font-size: 36px;
@@ -736,6 +738,10 @@ text-align: center;
 .icon-md {
   color: #000;
 }
+.form-header {
+text-align: left;
+font-weight: 700;
+}
 
 @media (max-width: 1024px) {
   .bloc {
@@ -809,6 +815,12 @@ text-align: center;
     padding: 0 20px;
     padding-left: constant(safe-area-inset-left);
     padding-right: constant(safe-area-inset-right);
+  }
+  .form-header {
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 700;
+
   }
 }
 @media (max-width: 767px) {
@@ -990,6 +1002,11 @@ text-align: center;
   .title2 {
     width: 100%;
   }
+  .form-header {
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 700;
+  }
 }
 @media (max-width: 767px) {
   .bloc-mob-center-text {
@@ -997,5 +1014,11 @@ text-align: center;
   }
   .title2 {
     width: 100%;
+  }
+  .form-header {
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 700;
+
   }
 }
